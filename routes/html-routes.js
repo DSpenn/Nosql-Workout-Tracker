@@ -13,8 +13,10 @@ route.get("/stats", (req, res) => {
   });
 });
 
-
-
-
+route.get("/exercise", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/exercise.html"), err => {
+      if (err) throw err;
+  });
+});
 
 module.exports = route;
