@@ -1,20 +1,20 @@
-const path = require("path");
-const route = require("express").Router();
+const path = require('path');
+const route = require('express').Router();
 
-route.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/index.html"), err => {
+route.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'), err => {
       if (err) throw err;
   });
 });
 
-route.get("/stats", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/stats.html"), err => {
+route.get('/stats', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/stats.html'), err => {
       if (err) throw err;
   });
 });
 
-route.get("/exercise", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/exercise.html"), err => {
+route.get('/exercise', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/exercise.html'), err => {
       if (err) throw err;
   });
 });
