@@ -40,10 +40,7 @@ router.get('/api/workouts/range', (req,res) => {
       console.log(dbWorkout);
       res.json(dbWorkout);
   })
-      .catch(err => {
-          // If an error occurs, send the error to the client
-          res.json(err);
-      })
+      .catch(err => { res.json(err) })
 })
 
 module.exports = router;

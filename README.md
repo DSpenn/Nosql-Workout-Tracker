@@ -5,8 +5,26 @@
 * As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 ## Description
+
 Deployed with Heroku using MongoDB Atlas
 https://limitless-sea-12074.herokuapp.com/stats
+
+
+## Table of Contents
+
+  * [User-Story](#User-story)
+  * [Description](#Description)
+  * [Technologies-Used](#Technologies-Used)
+  * [Acceptance-Criteria](#Acceptance-criteria)
+  * [Questions](#Questions)
+
+## Technologies Used:
+
+Express
+MongoDB
+Mongoose
+Morgan
+JavaScript Node.js
 
 ## Acceptance Criteria
 
@@ -20,4 +38,8 @@ The user should be able to:
   * The URL to the deployed application
   * The URL to the GitHub repository
 
-> **Important:** Look into using a MongoDB aggregate function to dynamically add up and return the total duration for each workout. Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
+## Questions
+
+https://github.com/Dspenn
+
+Email for any additional questions DerekStander@gmail.com
